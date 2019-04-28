@@ -6,93 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<style>
-			body {font-family: Arial, Helvetica, sans-serif;}
-
-			#myImg {
-			  border-radius: 5px;
-			  cursor: pointer;
-			  transition: 0.3s;
-			}
-
-			#myImg:hover {opacity: 0.7;}
-
-			/* The Modal (background) */
-			.modal {
-			  display: none; /* Hidden by default */
-			  position: fixed; /* Stay in place */
-			  z-index: 1; /* Sit on top */
-			  padding-top: 100px; /* Location of the box */
-			  left: 0;
-			  top: 0;
-			  width: 100%; /* Full width */
-			  height: 100%; /* Full height */
-			  overflow: auto; /* Enable scroll if needed */
-			  background-color: rgb(0,0,0); /* Fallback color */
-			  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-			}
-
-			/* Modal Content (image) */
-			.modal-content {
-			  margin: auto;
-			  display: block;
-			}
-
-			/* Caption of Modal Image */
-			#caption {
-			  margin: auto;
-			  display: block;
-			  width: 80%;
-			  max-width: 700px;
-			  text-align: center;
-			  color: #ccc;
-			  padding: 10px 0;
-			  height: 150px;
-			}
-
-			/* Add Animation */
-			.modal-content, #caption {  
-			  -webkit-animation-name: zoom;
-			  -webkit-animation-duration: 0.6s;
-			  animation-name: zoom;
-			  animation-duration: 0.6s;
-			}
-
-			@-webkit-keyframes zoom {
-			  from {-webkit-transform:scale(0)} 
-			  to {-webkit-transform:scale(1)}
-			}
-
-			@keyframes zoom {
-			  from {transform:scale(0)} 
-			  to {transform:scale(1)}
-			}
-
-			/* The Close Button */
-			.close {
-			  position: absolute;
-			  top: 15px;
-			  right: 35px;
-			  color: #f1f1f1;
-			  font-size: 40px;
-			  font-weight: bold;
-			  transition: 0.3s;
-			}
-
-			.close:hover,
-			.close:focus {
-			  color: #bbb;
-			  text-decoration: none;
-			  cursor: pointer;
-			}
-
-			/* 100% Image Width on Smaller Screens */
-			@media only screen and (max-width: 700px){
-			  .modal-content {
-				width: 100%;
-			  }
-			}
-		</style>
 		<title>Jewels Placer</title>
 	</head>
 	<body>
@@ -109,10 +22,7 @@
 							<h4 class="text-white">Контакты</h4>
 							<ul class="list-unstyled">
 								<li>
-									<a href="#" class="text-white">AndreProof on VK</a>
-								</li>
-								<li>
-									<a href="#" class="text-white">Send message on email</a>
+									<a href="https://vk.com/id185799202" class="text-white">AndreProof on VK</a>
 								</li>
 							</ul>
 						</div>
@@ -131,34 +41,107 @@
 			</div>
 		</header>
 		<div class="container pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-			<h1 class="display-4">Инструкция</h1>
-			<p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+			<h1 class="display-4">Руководство пользователя</h1>
+			<p class="lead">Данное программное обеспечение предназанчено для размещения трехмерных моделей ювелирных изделий в пределах указанной зоны</p>
 		</div>
+
 		
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
-			<span class="close">&times;</span>
-			<img class="modal-content img-fluid" id="img01">
-			<div id="caption"></div>
-		</div>
-		
-		<div class="album py-5 bg-light">
+		<div class="album py-5">
 			<div class="container">
 
 				<div class="row justify-content-md-center">
 					<div class="col-md-4">
 						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_1.png">
 								<img id="myImg" src="img/inst_1.png" class="img-thumbnail">
+							</a>
 							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								<p class="card-text">Стартовое окно программы.</p>
 							</div>
 						</div>
 					</div>
+					
 					<div class="col-md-4">
 						<div class="card mb-4 shadow-sm">
-								<img id="myImg" src="img/inst_1.png" class="img-thumbnail">
+							<a rel="simplebox" href="img/inst_2.png">
+								<img id="myImg" src="img/inst_2.png" class="img-thumbnail">
+							</a>
 							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								<p class="card-text">Для начала работы необходимо перетащить в список моделей (выделена синим)
+								файл формата .stl, либо открыть файл нажатием кнопки «Импорт» (выделена красным).</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_3.png">
+								<img id="myImg" src="img/inst_3.png" class="img-thumbnail">
+							</a>
+							<div class="card-body">
+								<p class="card-text">При успешной загрузке модели можно будет открыть окно просмотра и редактирования положения модели.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_4.png">
+								<img id="myImg" src="img/inst_4.png" class="img-thumbnail">
+							</a>
+							<div class="card-body">
+								<p class="card-text">При необходимости можно создать копию уже загруженной модели нажатием на кнопку «Создать копию» (выделена красным).
+								В настройках визуализации (выделены синим) можно выбрать в каком виде должна быть отрисована модель.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_5.png">
+								<img id="myImg" src="img/inst_5.png" class="img-thumbnail">
+							</a>
+							<div class="card-body">
+								<p class="card-text">Настройки размещения (выделены синим) позволят задать необходимые условия размещения. 
+								В разделе «Размер блока» (выделены красным) задаются размеры области размещения. </p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_6.png">
+								<img id="myImg" src="img/inst_6.png" class="img-thumbnail">
+							</a>
+							<div class="card-body">
+								<p class="card-text">Кнопки «Удалить» и «Очистить» позволяют удалить одну или все загруженные модели соответственно. 
+								Позицию камеры задают настройки «Поворот камеры» (выделены синим).</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_7.png">
+								<img id="myImg" src="img/inst_7.png" class="img-thumbnail">
+							</a>
+							<div class="card-body">
+								<p class="card-text">При нажатии на кнопку «Разместить» (выделена красным) происходит размещение моделей из списка в настроенной области. 
+								Результат показывается на экране. Красным выделена занятая область, а зеленым свободная. Если высота блока не была указана, то в настройках 
+								размера блока она указывается. 
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<a rel="simplebox" href="img/inst_8.png">
+								<img id="myImg" src="img/inst_8.png" class="img-thumbnail">
+							</a>
+							<div class="card-body">
+								<p class="card-text">Также по результатам размещения выводится карта размещения. Красным виделена кнопка «Справка», которая перенаправляет на данный сайт.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -170,21 +153,21 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		
-		<script>
-			var modal = document.getElementById('myModal');
-
-			var img = document.getElementById('myImg');
-			var modalImg = document.getElementById("img01");
-			var captionText = document.getElementById("caption");
-			img.onclick = function(){
-				modal.style.display = "block";
-				modalImg.src = this.src;
-				captionText.innerHTML = this.alt;
-			}
-			var span = document.getElementsByClassName("close")[0];
-			span.onclick = function() { 
-				modal.style.display = "none";
-			}
+		<script type="text/javascript" src="simplebox_util.js"></script>
+		<script type="text/javascript">
+			(function(){
+				var boxes=[],els,i,l;
+				if(document.querySelectorAll){
+				els=document.querySelectorAll('a[rel=simplebox]');	
+				Box.getStyles('simplebox_css','simplebox.css');
+				Box.getScripts('simplebox_js','simplebox.js',function(){
+				simplebox.init();
+				for(i=0,l=els.length;i<l;++i)
+				simplebox.start(els[i]);
+				simplebox.start('a[rel=simplebox_group]');			
+				});
+				}
+			})();
 		</script>
 	</body>
 </html>
